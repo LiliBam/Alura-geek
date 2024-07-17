@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css"> 
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+     <header class="header">
+    </header>
+    <main class="main-container">
+        <section>
+            <h1>Mis Productos:</h1>
+            <div data-product class="products-container">
+                <div class="card">
+                     <div class="img-container">
+                        <img src="img/2018_IMG_20190830_Monstera Deliciosa_acril.jpg" alt="Imagen 1" class="imagen-cuadro">
+                    </div>
+
+                    <div class="card-container--info">
+                        <p>Pikachu</p> 
+                        <div class="card-container--value">
+                            <p>$ 300</p>
+                            <button class="delete-button" data-id="${id}">
+                                 <img src="img/icons8-papelera-emoji-48.png" alt="Eliminar">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+             </div>
+         </section>
+
+         <section>
+             <h1>Agregar Producto:</h1>
+             <form class="form-container" data-form>
+                 <input data-name placeholder="nombre..." type="text">
+                 <input data-price placeholder="precio..." type="text">
+                 <input data-image placeholder="imagen..." type="text">
+
+                 <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar...</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar...</button>
+                 </div>
+             </form>
+         </section>       
+                
+    </main>
+    <footer class="footer-container">
+            <h1 class="titulo-encabezado">Alura Geek - Charly Art</h1>
+            <p class="copyright">Creado por &copy Sonia Veit - 2024</p>
+            <p class="copyright">Para Alura Latam - OracleNextEducation</p>
+    
+        </footer>
+        <script src="./js/mostrarCuadros.js" type="module"></script>
+        <script src="./js/crearCuadro.js" type="module"></script>
+</body>
+</html>

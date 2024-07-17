@@ -1,0 +1,37 @@
+{
+    "products": [
+ 
+        {
+            "id": 1,
+            "name": "Playstation 5 Controller - White",
+            "price": 50,
+            "img": "https://m.media-amazon.com/images/I/61IIJGmdmnL._SL1500_.jpg",
+            "description": "Playstation 5 Controller",
+            "category": "Video Games"
+          },
+          {
+            "id": 2,
+            "name": "Playstation 5 Digital",
+            "price": 300,
+            "img": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$",
+            "description": "Playstation 5 console",
+            "category": "Video Games"
+          },
+          {
+            "id": 3,
+            "name": "Splid Pad Pro - Zelda Tear of the Kingdom",
+            "price": 20,
+            "img": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/My%20Nintendo%20Store/EN-US/Nintendo%20Switch%20Accessories/Controllers/split-pad-pro-for-nintendo-switch-the-legend-of-zelda-tears-of-the-kingdom-edition-120385/120385-hori-split-pad-pro-zelda-totk-front-detached-1200x675",
+            "description": "Controller for Nintendo Switch",
+            "category": "Video Games"
+          },
+          {
+            "id": 4,
+            "name": "Nintendo Switch",
+            "price": 250,
+            "img": "https://m.media-amazon.com/images/I/51Gz7IimgoL._AC_SL1024_.jpg",
+            "description": "Nintendo Switch console",
+            "category": "Video Games"
+          }
+    ]
+}
